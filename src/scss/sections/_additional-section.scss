@@ -1,0 +1,48 @@
+.additional-section {
+  margin-top: auto;
+
+  &__subs {
+    padding: 5.6rem 0 3.2rem;
+
+    > .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__form {
+    display: flex;
+    gap: 3.2rem;
+
+    > .rounded-field {
+      width: 54rem;
+    }
+  }
+
+  &__apps {
+    padding: 1.6rem 0;
+
+    background-color: #F2ACB0;
+
+    > .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+  }
+
+  &__button {
+    width: 19rem;
+
+    > img {
+      @include imageChars();
+    }
+  }
+}

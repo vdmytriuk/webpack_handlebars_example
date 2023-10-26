@@ -1,0 +1,50 @@
+.recommendations {
+  > .container {
+    display: flex;
+    gap: 2.6rem;
+  }
+
+  &__controls {
+    padding: 2.4rem 1.6rem;
+    width: 22.5rem;
+
+    background-color: var(--gray-050);
+    border-radius: 8px;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+  }
+
+  &__carousel {
+    display: none;
+    gap: 2.4rem;
+    height: 100%;
+
+    &.active {
+      display: flex;
+
+      animation: fadeLeft .5s;
+    }
+  }
+
+  &__products {
+    display: flex;
+    gap: 1.6rem;
+  }
+
+  &__more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100%;
+    width: 14rem;
+
+    background-color: var(--gray-050);
+    border-radius: .8rem;
+  }
+}

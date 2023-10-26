@@ -1,0 +1,38 @@
+//Core
+@import "core/mixins";
+@import "core/fonts";
+@import "core/global";
+@import "core/typography";
+@import "core/variables";
+
+//Layouts
+@import "layouts/container";
+@import "layouts/footer";
+@import "layouts/header";
+
+//UI
+@import "UI/buy-button";
+@import "UI/cart-button";
+@import "UI/catalogue-button";
+@import "UI/circle-arrow";
+@import "UI/circle-arrow-button";
+@import "UI/form-field";
+@import "UI/logo";
+@import "UI/rounded-button";
+@import "UI/rounded-counter";
+@import "UI/rounded-field";
+@import "UI/search-field";
+
+//Particles
+@import "particles/instagram-square";
+@import "particles/nav";
+@import "particles/nav-tabs";
+@import "particles/product";
+
+//Sections
+@import "sections/additional-section";
+@import "sections/dot-slider";
+@import "sections/hero-slider";
+@import "sections/recommendations";
+@import "sections/styled-section";
+@import "sections/text-section";

@@ -1,0 +1,60 @@
+.dot-slider {
+  padding-bottom: 4rem;
+
+  > .container {
+    position: relative;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 2.4rem;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include circle(4.4rem);
+
+    background-color: var(--secondary-default);
+
+    > svg {
+      path {
+        stroke: var(--accent-secondary-text-color);
+      }
+    }
+
+    &.swiper-button-disabled {
+      cursor: not-allowed;
+
+      background-color: transparent;
+
+      > svg {
+        path {
+          stroke: var(--secondary-default);
+        }
+      }
+    }
+  }
+
+  &__pagination {
+    bottom: -3.2rem!important;
+
+    .swiper-pagination-bullet {
+      background: var(--gray-400);
+
+      opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: var(--primary-default);
+    }
+  }
+}

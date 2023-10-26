@@ -1,0 +1,11 @@
+.rounded-counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 9.5rem;
+  height: 3.2rem;
+
+  background-color: var(--gray-100);
+  box-shadow: inset 0 0 0 1px var(--gray-300);
+  border-radius: 4rem;
+}

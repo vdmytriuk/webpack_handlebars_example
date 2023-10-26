@@ -1,0 +1,46 @@
+<div class="product">
+    <div class="product__top">
+        <div class="product__tag">
+            <span class="primary-default-color">
+                Новинка
+            </span>
+        </div>
+
+        <button class="product__heart {{heartClassname}}">
+            {{> ../common/icons/heart}}
+        </button>
+    </div>
+
+    <picture class="product__image">
+        <source srcset="../../assets/images/product.jpg" type="image/jpg">
+        <img src="../../assets/images/product.jpg" loading="lazy" alt="Hero image">
+    </picture>
+    
+    <div class="product__content">
+        <h3 class="small-text gray600-text">
+            Томатний соус с манго...
+        </h3>
+
+        <div class="product__characteristics">
+            <div class="product__prices">
+                <span class="product__old-price">
+                    400 грн
+                </span>
+
+                <span class="product__new-price small-text bold-weight">
+                    340 грн
+                </span>
+            </div>
+
+            <span class="small-text gray400-text">
+                0.3 гр
+            </span>
+        </div>
+
+        <form action="#" class="product__controls">
+            {{> ../UI/rounded-counter}}
+
+            {{> ../UI/buy-button}}
+        </form>
+    </div>
+</div>

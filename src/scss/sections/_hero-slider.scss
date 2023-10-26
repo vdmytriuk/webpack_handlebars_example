@@ -1,0 +1,71 @@
+.hero-slider {
+  position: relative;
+
+  width: 100%;
+
+  &__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 20;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include circle(4.4rem);
+
+    background-color: var(--gray-100);
+
+    &_prev {
+      left: 10rem;
+    }
+
+    &_next {
+      right: 10rem;
+    }
+  }
+
+  &__pagination {
+    bottom: 4rem!important;
+
+    .swiper-pagination-bullet {
+      background: var(--gray-400);
+
+      opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: var(--gray-050);
+    }
+  }
+
+  &__items {
+    height: 32rem;
+  }
+
+  &__item {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    > .biggest-heading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      text-align: center;
+    }
+  }
+
+  &__image {
+    height: 100%;
+
+    > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

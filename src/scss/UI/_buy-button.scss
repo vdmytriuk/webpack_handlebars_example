@@ -1,0 +1,14 @@
+.buy-button {
+  @include circle(3.2rem);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-default);
+
+  > svg {
+    @include imageChars();
+
+    width: 1.6rem;
+  }
+}

@@ -1,0 +1,38 @@
+.cart-button {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  height: 4.5rem;
+  padding: 0 3rem 0 2.5rem;
+
+  background-color: var(--primary-default);
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+
+  &__counter {
+    position: absolute;
+    top: 0;
+    left: -.7rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include circle(2.4rem);
+
+    border: 1px solid var(--primary-default);
+
+    background-color: var(--accent-secondary-text-color);
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    > svg {
+      @include imageChars();
+      width: 1.8rem;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+<section class="hero-slider">
+    <button class="hero-slider__button hero-slider__button_prev">
+        {{> ../common/icons/arrow-prev}}
+    </button>
+
+    <div class="hero-slider__items swiper">
+        <div class="hero-slider__track swiper-wrapper">
+            <div class="hero-slider__item swiper-slide">
+                <picture class="hero-slider__image">
+                    <source srcset="../../assets/images/slider-example.jpg" type="image/jpg">
+                    <img src="../../assets/images/slider-example.jpg" alt="Hero image">
+                </picture>
+
+                <h2 class="biggest-heading light-text">
+                    Справжні Європейські продукти
+                </h2>
+            </div>
+
+            <div class="hero-slider__item swiper-slide">
+                <picture class="hero-slider__image">
+                    <source srcset="../../assets/images/slider-example.jpg" type="image/jpg">
+                    <img src="../../assets/images/slider-example.jpg" alt="Hero image">
+                </picture>
+
+                <h2 class="biggest-heading light-text">
+                    Справжні Європейські продукти
+                </h2>
+            </div>
+
+            <div class="hero-slider__item swiper-slide">
+                <picture class="hero-slider__image">
+                    <source srcset="../../assets/images/slider-example.jpg" type="image/jpg">
+                    <img src="../../assets/images/slider-example.jpg" loading="lazy" alt="Hero image">
+                </picture>
+
+                <h2 class="biggest-heading light-text">
+                    Справжні Європейські продукти
+                </h2>
+            </div>
+        </div>
+
+        <div class="hero-slider__pagination swiper-pagination"></div>
+    </div>
+
+    <button class="hero-slider__button hero-slider__button_next">
+        {{> ../common/icons/arrow-next}}
+    </button>
+</section>

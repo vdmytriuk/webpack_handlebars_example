@@ -1,0 +1,27 @@
+.catalogue-button {
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+
+    > img {
+      @include imageChars();
+
+      width: 1.6rem;
+    }
+  }
+
+  &__arrow {
+    width: 1rem;
+
+    > img {
+      @include imageChars();
+    }
+  }
+}

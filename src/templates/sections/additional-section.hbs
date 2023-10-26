@@ -1,0 +1,39 @@
+<section class="additional-section">
+    <div class="additional-section__subs">
+        <div class="container container_small">
+            <h3 class="medium-heading regular-weight primary-default-color">
+                Підписатись на розсилку
+            </h3>
+
+            <form class="additional-section__form" action="#">
+                {{#> ../UI/rounded-field type="text" name="email" placeholder="Введіть ваш e-mail"}}
+
+                {{/../UI/rounded-field}}
+
+                {{#> ../UI/rounded-button color="primary"}}
+                    <span class="medium-text gray100-text">
+                        Підписатись
+                    </span>
+                {{/../UI/rounded-button}}
+            </form>
+        </div>
+    </div>
+
+    <div class="additional-section__apps">
+        <div class="container container_small">
+            <h3 class="medium-heading primary-default-color bold-weight">
+                Мобільний додаток Mozzarella
+            </h3>
+
+            <div class="additional-section__buttons">
+                <a href="#" class="additional-section__button">
+                    <img src="../../assets/images/app-store.svg" loading="lazy" alt="App store">
+                </a>
+
+                <a href="#" class="additional-section__button">
+                    <img src="../../assets/images/google-play.svg" loading="lazy" alt="Google play">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

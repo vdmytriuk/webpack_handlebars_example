@@ -1,0 +1,10 @@
+.container {
+  max-width: 128rem;
+  width: 100%;
+  padding: 0 2rem;
+  margin: 0 auto;
+
+  &_small {
+    max-width: 107rem;
+  }
+}

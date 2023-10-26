@@ -1,0 +1,9 @@
+.circle-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include circle(4.4rem);
+
+  background-color: var(--gray-300);
+}

@@ -1,0 +1,7 @@
+.logo {
+  width: 20rem;
+
+  > img {
+    @include imageChars();
+  }
+}
